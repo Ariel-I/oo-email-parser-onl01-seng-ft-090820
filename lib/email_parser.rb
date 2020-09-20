@@ -3,8 +3,9 @@ class EmailAddressParser
 attr_accessor :name, :csv_email_addresses 
 
 def initialize(csv_email_addresses)
-  
-  
+  @csv_email_addresses = csv_email_addresses
+end 
+
 
 def parse 
 return email_addresses.uniq
