@@ -8,7 +8,8 @@ end
 
 
 def parse 
-  csv_email_addresses.slpit.collect do 
+  csv_email_addresses.slpit.collect do |address|
+    
 return flatten.uniq
 end 
 
