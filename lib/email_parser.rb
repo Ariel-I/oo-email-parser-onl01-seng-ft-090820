@@ -6,6 +6,7 @@ def initialize(str)
   
 
 def parse 
+return :email
 end 
 
 end 
