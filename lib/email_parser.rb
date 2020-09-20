@@ -8,7 +8,8 @@ end
 
 
 def parse 
-return email_addresses.uniq
+  csv_email_addresses.slpit.collect do 
+return flatten.uniq
 end 
 
 end 
