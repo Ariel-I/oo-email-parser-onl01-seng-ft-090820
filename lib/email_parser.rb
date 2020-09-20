@@ -9,7 +9,7 @@ end
 
 def parse 
   csv_email_addresses.split.collect do |address|
-    adress.split(",")
+    address.split(",")
   end
  flatten.uniq
 end 
