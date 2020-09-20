@@ -10,7 +10,8 @@ end
 def parse 
   csv_email_addresses.slpit.collect do |address|
     adress.split(",")
-return flatten.uniq
+  end
+ flatten.uniq
 end 
 
 end 
